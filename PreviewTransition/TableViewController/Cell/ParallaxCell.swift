@@ -43,7 +43,7 @@ public class ParallaxCell: UITableViewCell {
   /// parallax offset
   @IBInspectable public var difference: CGFloat = 100 // image parallax
   
-  var bgImage: UIImageView?
+  public var bgImage: UIImageView?
   var parallaxTitle: UILabel?
   
   /// The foreground view’s background color.

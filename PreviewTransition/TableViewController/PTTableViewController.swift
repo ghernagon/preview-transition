@@ -88,11 +88,11 @@ extension PTTableViewController {
   public override func viewWillAppear(animated: Bool) {
     super.viewWillAppear(animated)
     
-    moveCellsBackIfNeed(duration) {
-      self.tableView.reloadData()
-    }
-    closeCurrentCellIfNeed(duration)
-    moveDownCurrentLabelIfNeed()
+//    moveCellsBackIfNeed(duration) {
+//      self.tableView.reloadData()
+//    }
+//    closeCurrentCellIfNeed(duration)
+//    moveDownCurrentLabelIfNeed()
   }
 }
 
